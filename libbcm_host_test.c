@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <inttypes.h>
 #include "bcm_host.h"
 
 int main()
