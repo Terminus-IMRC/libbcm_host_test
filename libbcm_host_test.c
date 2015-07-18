@@ -8,7 +8,7 @@ int main()
 	bcm_host_init();
 
 	printf("Peripheral address: 0x%0*x\n", addr_width, bcm_host_get_peripheral_address());
-	printf("Peripheral size: %d\n", bcm_host_get_peripheral_size());
+	printf("Peripheral size: 0x%0*x\n", addr_width, bcm_host_get_peripheral_size());
 	printf("SDRAM address: 0x%0*x\n", addr_width, bcm_host_get_sdram_address());
 
 	bcm_host_deinit();
